@@ -1,0 +1,6 @@
+---
+- name: Install Filebeat on Probes
+  hosts: probes
+  become: true
+  roles:
+    - ansible-role-filebeat
