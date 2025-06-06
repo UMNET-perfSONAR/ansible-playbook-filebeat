@@ -8,6 +8,7 @@ fi
 
 mkdir -p $directory/group_vars
 mkdir -p $directory/host_vars
+mkdir -p "$directory/group_vars/all"
 
 if ! [ -f $directory/group_vars/all/install_filebeat.yml ]; then
   cp roles/ansible-role-filebeat/defaults/main.yml \
