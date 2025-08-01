@@ -1,6 +1,6 @@
 # ansible-playbook-filebeat
 
-Install Filebeat using `ansible-role-filebeat`.
+Install Filebeat using [ansible-role-filebeat](https://github.com/UMNET-perfSONAR/ansible-role-filebeat).
 
 ## Instructions
 
